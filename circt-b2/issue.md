@@ -6,7 +6,7 @@
 
 When an `affine.for` loop containing `func.call` is lowered through `--lower-affine` and `--scf-for-to-while`, the resulting SCF while loop triggers a null pointer access during Calyx control flow construction.
 
-**Crash Type**: Segmentation Fault (SIGSEGV)  
+**Crash Type**:  
 **Dialect**: Calyx  
 **Failing Pass**: `lower-scf-to-calyx` (SCFToCalyx)
 
